@@ -3,10 +3,10 @@
 Gabungan modul: Katalog Produk, Pelanggan & Alamat, Ekspedisi Kirim, Voucher & Promo + Checkout.
 Laravel 12 · PHP >= 8.2 · MySQL.
 
-## Menjalankan
+
 ```bash
 composer install
-cp .env.example .env          # lalu isi DB_PASSWORD bila MySQL kamu memakai password
+cp .env.example .env         
 php artisan key:generate
 # buat database kosong bernama: toko_online
 php artisan migrate:fresh --seed
@@ -14,7 +14,7 @@ php artisan serve
 ```
 Buka http://127.0.0.1:8000
 
-## Akun demo (dari seeder)
+## Akun demo
 | Role     | Email                  | Password      |
 |----------|------------------------|---------------|
 | Admin    | admin@sevshop.test     | admin12345    |
