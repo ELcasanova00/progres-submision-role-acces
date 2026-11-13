@@ -1,4 +1,4 @@
-# SevShop — E-Commerce / Toko Online (Studi Kasus 06)
+# SevShop — E-Commerce / Toko Online 
 
 Gabungan modul: Katalog Produk, Pelanggan & Alamat, Ekspedisi Kirim, Voucher & Promo + Checkout.
 Laravel 12 · PHP >= 8.2 · MySQL.
